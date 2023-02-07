@@ -1,0 +1,41 @@
+caption{
+    background-color:cadetblue ;
+    padding: 5pt;
+}
+td{
+    padding: 5pt;
+    font-weight: bold;
+}
+thead th {
+    background-color: #F1F1F1;
+    border-left: 1px solid white;
+    border-top: 1px solid white;
+    border-bottom: 1px solid grey;
+    border-right: 1px solid white;
+    color: #6E6E6E;
+
+}
+tbody td, tfoot td{
+    background-color: #F1F1F1;
+    border-left: 1px solid white;
+    border-top: 1px solid white;
+    border-bottom: 1px solid grey;
+    border-right: 1px solid gray;
+    color: #6E6E6E;
+}
+tbody td:hover{
+    background-color: red;
+
+}
+form {
+    background-color:burlywood;
+    width: 40%;
+}
+#today {
+    background-color:darkcyan;
+    color: white;
+
+}
+tfoot #next {
+    text-align: right;
+}
